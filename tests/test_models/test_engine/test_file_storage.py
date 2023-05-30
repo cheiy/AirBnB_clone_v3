@@ -116,6 +116,6 @@ class TestFileStorage(unittest.TestCase):
 
     def test_filestorage_count_cls(self):
         """ Test Count """
-        all_obj = models.storage.all('State')
-        count_all_obj = models.storage.count('State')
-        self.assertEqual(len(all_obj), count_all_obj)
+        all_ob = models.storage.all('State')
+        count_all_ob = models.storage.count('State')
+        self.assertEqual(len(all_ob), count_all_ob)
