@@ -99,6 +99,3 @@ class DBStorage:
             count = len(models.storage.all(cls).values())
 
         return count
-
-    def test(seltf):
-        return self
