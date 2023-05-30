@@ -100,3 +100,5 @@ class DBStorage:
 
         return count
 
+    def test(seltf):
+        return self
