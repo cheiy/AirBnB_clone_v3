@@ -71,14 +71,6 @@ class FileStorage:
 
     def get(self, cls, id):
         """  Return class name and its ID or None if not found """
-        obj_dict = self.all(cls)
-        for k, v in obj_dict.items():
-            matchstring = cls + '.' + id
-            if k == matchstring:
-                return v
-
-
-        return None
 
     def count(self, cls=None):
         """  Returns number of objects in storage """
